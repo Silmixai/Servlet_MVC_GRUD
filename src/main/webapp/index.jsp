@@ -7,7 +7,7 @@
 <body>
 <h1> My Friends Database</h1>
 
-    <a href="read.jsp" >View All Friend</a>
+    <a href="/read" >View All Friend</a>
 
 </body>
 
