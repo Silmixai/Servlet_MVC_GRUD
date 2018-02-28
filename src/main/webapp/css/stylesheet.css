@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine
+}
+
+table{border-collapse: collapse}
+
+table,tr,td {border: 1px solid black}
+
+.right{text-align: right}
+
+.add td{border:none; height: 25px;padding: 10px;font-weight:bold }
+.update {border:none; height: 25px;padding: 10px;font-weight:bold }
+
+input[readonly] {
+    background: gray;
+;}

@@ -11,5 +11,11 @@
 
 <%=table%>
 
+<a href="/addFriend">Add A New Friend</a>
+<br> <br>
+<a href="search.jsp"> Search Friends</a>
+<br>
+<a href="/read" >View All Friend</a>
+
 </body>
 </html>

@@ -5,13 +5,5 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   
-  <servlet>
-    <servlet-name>ReadServlet</servlet-name>
-    <servlet-class>com.mixail.controler.ReadServlet</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>ReadServlet</servlet-name>
-    <url-pattern>/read</url-pattern>
-  </servlet-mapping>
+
 </web-app>

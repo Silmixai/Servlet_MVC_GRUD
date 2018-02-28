@@ -1,6 +1,7 @@
 package com.mixail.controler;
 
-import com.mixail.dbHelpers.ReadQuery;
+import com.mixail.dbHelpers.DeleteQuery;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,20 +10,19 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
 
-@WebServlet(name = "ReadServlet", urlPatterns = "/read")
-public class ReadServlet extends HttpServlet {
+@WebServlet(name = "DeleteServlet", urlPatterns = "/delete")
+public class DeleteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        ReadQuery readQuery = new ReadQuery();
-        readQuery.doRead();
-        try {
-            String table = readQuery.getHTMLtable();
-            request.setAttribute("table", table);
-            String url = "/read.jsp";
-            request.getRequestDispatcher(url).forward(request,response);
 
+        int friendId = Integer.parseInt(request.getParameter("friendID"));
+        DeleteQuery deleteQuery = new DeleteQuery();
+        try {
+            deleteQuery.doDelete(friendId);
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        String url="/read";
+        request.getRequestDispatcher(url).forward(request,response);
 
 
     }

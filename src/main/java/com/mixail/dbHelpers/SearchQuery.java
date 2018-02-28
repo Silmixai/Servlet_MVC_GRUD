@@ -8,12 +8,12 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.Properties;
 
-public class ReadQuery {
+public class SearchQuery {
 
     private Connection conn;
     private ResultSet resultSet;
 
-    public ReadQuery() {
+    public SearchQuery() {
         Properties properties = new Properties();
         FileInputStream fileInputStream;
         try {
@@ -24,18 +24,10 @@ public class ReadQuery {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
         String login = (String) properties.getProperty("user.name");
         String password = properties.getProperty("user.password");
         String url = properties.getProperty("server.name");
         String driver = properties.getProperty("driver.name");
-      /*    System.out.println("login=" + login);
-        System.out.println("password=" + password);
-        System.out.println("uri=" + url);
-        System.out.println("driver=" + driver);
-*/
-
 
         try {
             Class.forName(properties.getProperty("driver.name"));
@@ -48,24 +40,24 @@ public class ReadQuery {
 
     }
 
-    public void doRead() {
-        String query = "Select *from friends";
-        PreparedStatement ps = null;
+    public void doSearch(String friendName) {
+
+        String query = "Select *FROM friends WHERE UPPER (friendName) Like ?";
         try {
-            ps = conn.prepareStatement(query);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        try {
+            PreparedStatement ps = conn.prepareStatement(query);
+            ps.setString(1, "%" + friendName.toUpperCase() + "%");
             this.resultSet = ps.executeQuery();
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
     }
 
+
     public String getHTMLtable() throws SQLException {
-        String table = "";
-        table += "<table border=1>";
+        String searchTable = "";
+        searchTable += "<table border=1>";
 
 
         while (this.resultSet.next()) {
@@ -75,49 +67,44 @@ public class ReadQuery {
             friend.setEmailAddr(this.resultSet.getNString("emailAddr"));
             friend.setAge(this.resultSet.getInt("age"));
             friend.setFavoriteColor(this.resultSet.getString("favoriteColor"));
-            table += "<tr>";
+            searchTable += "<tr>";
 
-            table += "<td>";
-            table += friend.getFriendId();
-            table += "</td>";
-
-
-            table += "<td>";
-            table += friend.getFriendName();
-            table += "</td>";
-
-            table += "<td>";
-            table += friend.getEmailAddr();
-            table += "</td>";
-
-            table += "<td>";
-            table += friend.getAge();
-            table += "</td>";
-
-            table += "<td>";
-            table += friend.getFavoriteColor();
-            table += "</td>";
-
-            table += "<td>";
-            table += "<a href=update?friendID=" + friend.getFriendId() + "> Update </a>";
-            table += "</td>";
+            searchTable += "<td>";
+            searchTable += friend.getFriendId();
+            searchTable += "</td>";
 
 
-            table += "<td>";
-            table += "<a href=delete?friendID=" + friend.getFriendId() + "> Delete </a>";
-            table += "</td>";
+            searchTable += "<td>";
+            searchTable += friend.getFriendName();
+            searchTable += "</td>";
+
+            searchTable += "<td>";
+            searchTable += friend.getEmailAddr();
+            searchTable += "</td>";
+
+            searchTable += "<td>";
+            searchTable += friend.getAge();
+            searchTable += "</td>";
+
+            searchTable += "<td>";
+            searchTable += friend.getFavoriteColor();
+            searchTable += "</td>";
+
+            searchTable += "<td>";
+            searchTable += "<a href=update?friendID=" + friend.getFriendId() + "> Update </a>";
+            searchTable += "</td>";
 
 
+            searchTable += "<td>";
+            searchTable += "<a href=delete?friendID=" + friend.getFriendId() + "> Delete </a>";
+            searchTable += "</td>";
 
-
-            table += "</tr>";
+            searchTable += "</tr>";
         }
 
-        table += "</table>";
-        return table;
-
+        searchTable += "</table>";
+        return searchTable;
 
     }
-
 
 }
