@@ -1,20 +1,3 @@
-body {
-    background-color: aquamarine
-}
-
-table{border-collapse: collapse}
-
-table,tr,td {border: 1px solid black}
-
-.right{text-align: right}
-
-.add td{border:none; height: 25px;padding: 10px;font-weight:bold }
-.update {border:none; height: 25px;padding: 10px;font-weight:bold }
-
-input[readonly] {
-    background: gray;
-;}
-
 
 body{background-color: white}
 .wrap{text-align: center ;width: 90%;margin: 0 auto;border:2px solid black;}

@@ -7,11 +7,11 @@
     <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+
 <%Friends friends = (Friends) request.getAttribute("friend");%>
 <h1>Update A Friend Record</h1>
 
 <form name="updateForm" action="/updateFriend" method="get">
-
 
 <table class="add">
     <tr>
@@ -44,15 +44,9 @@
         <td>   <input type="text" name="color" value="<%=friends.getFavoriteColor()%>"></td>
 
     </tr>
-
-
 </table>
-
     <input type="submit" name="submit" value="Update">
     <input type="reset" name="reset" value="clear">
-
 </form>
-
-
 </body>
 </html>

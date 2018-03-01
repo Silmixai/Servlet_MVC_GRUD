@@ -1,0 +1,1 @@
+<div class="footer">Copyright 2018 Silvanovich Mixail | All right reserved</div>

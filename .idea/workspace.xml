@@ -6,31 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2725a3a-1626-4526-bea4-ffb46285827d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/AddFormServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/AddServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/DeleteServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/SearchServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/UpdateFormServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/UpdateServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/AddQuery.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/DeleteQuery.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadRecord.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/SearchQuery.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/UpdateQuery.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" />
+    <list default="true" id="f2725a3a-1626-4526-bea4-ffb46285827d" name="Default" comment="add ReadServlet UpdateServlet,DeleteServlet,UpdateServlet to controller">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/simple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/includes/header.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/includes/logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/includes/newjspmenu.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/includes/prototype.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/DB.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/controler/ReadServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/ReadServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadQuery.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadQuery.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/stylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/stylesheet.css" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/read.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/read.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Servlet_MVC/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/Servlet_MVC/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" />
       <change beforePath="$PROJECT_DIR$/target/Servlet_MVC/index.jsp" afterPath="$PROJECT_DIR$/target/Servlet_MVC/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,34 +49,16 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db_friends@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_friends@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_friends@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_friends: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_friends@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_friends: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="friends: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="read.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/read.jsp">
+      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="217">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -99,8 +69,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -131,21 +102,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/addQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/controler/AddServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/controler/AddFormServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/controler/DeleteServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/DeleteQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/controler/UpdateFormServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadRecord.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/controler/UpdateServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/UpdateQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/search.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/controler/SearchServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/SearchQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/includes/prototype.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/includes/prototype.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/simple.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/includes/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/includes/newjspmenu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/read.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/add.jsp" />
       </list>
     </option>
   </component>
@@ -163,10 +140,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="552" />
-    <option name="y" value="41" />
+    <option name="x" value="1038" />
+    <option name="y" value="42" />
     <option name="width" value="1467" />
-    <option name="height" value="897" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,24 +200,6 @@
               <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mixail" type="462c0819:PsiDirectoryNode" />
-              <item name="controler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mixail" type="462c0819:PsiDirectoryNode" />
-              <item name="dbHelpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,7 +215,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
@@ -265,10 +230,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,12 +245,15 @@
     <property name="project.structure.side.proportion" value="0.36551723" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\webapp\WEB-INF\lib" />
-      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\resources" />
-      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\java\com\mixail\dbHelpers" />
+      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\webapp\includes" />
+      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\webapp\css" />
+      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\webapp" />
+      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\webapp\includes\logo" />
+      <recent name="C:\Users\Mike\Documents\Servlet_MVC\src\main\webapp\logo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,6 +329,8 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="header.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/includes/header.jsp" />
+    <configuration name="prototype.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/includes/prototype.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -474,13 +443,17 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.main" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.prototype.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.header.jsp" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.header.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.prototype.html" />
+        <item index="2" class="java.lang.String" itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +473,8 @@
       <workItem from="1519650043425" duration="6180000" />
       <workItem from="1519732878190" duration="1218000" />
       <workItem from="1519734189469" duration="16367000" />
-      <workItem from="1519810786044" duration="11070000" />
+      <workItem from="1519810786044" duration="13199000" />
+      <workItem from="1519901582856" duration="9867000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1519658272234</created>
@@ -523,14 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519738470144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add ReadServlet UpdateServlet,DeleteServlet,UpdateServlet to controller">
+      <created>1519840059048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519840059048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34835000" />
+    <option name="totallyTimeSpent" value="46831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="552" y="41" width="1467" height="897" extended-state="0" />
+    <frame x="1038" y="42" width="1467" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -543,13 +524,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3112314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2777778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19331911" sideWeight="0.8153242" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19331911" sideWeight="0.18467583" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.8060201" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.19397993" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02771855" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -575,7 +556,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add model and mySqlDriver" />
     <MESSAGE value="add ReadServlet to controler" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ReadServlet to controler" />
+    <MESSAGE value="add ReadServlet UpdateServlet,DeleteServlet,UpdateServlet to controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ReadServlet UpdateServlet,DeleteServlet,UpdateServlet to controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -584,6 +566,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/updateForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/updateForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -604,9 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <marker date="1519752481273" expanded="true" signature="1607:1627" ph="Select *from... friends" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="138" column="22" lean-forward="false" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,18 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-72">
           <caret line="38" column="9" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1519741764507" expanded="true" signature="1422:1498" ph="INSERT INTO friends... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="53" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="19" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,26 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1519825121654" expanded="true" signature="1513:1596" ph="UPDATE friends... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/updateForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <marker date="1519746130012" expanded="true" signature="1487:1525" ph="DELETE FROM friends... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="119" column="5" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="119" selection-end-column="5" />
-          <folding>
-            <marker date="1519752481273" expanded="true" signature="1607:1627" ph="Select *from... friends" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,15 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
-            <marker date="1519756337055" expanded="true" signature="1520:1560" ph="SELECT * FRO... friends" />
-            <marker date="1519756337055" expanded="true" signature="1529:1560" ph="DELETE FROM friends... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,10 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1519839727427" expanded="true" signature="1433:1485" ph="Select *FROM... friends" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,18 +777,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/updateForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/includes/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/includes/prototype.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/includes/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/includes/newjspmenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/includes/prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="41" column="84" lean-forward="true" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/includes/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/read.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="455">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/simple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
