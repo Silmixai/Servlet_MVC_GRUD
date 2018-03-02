@@ -6,30 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2725a3a-1626-4526-bea4-ffb46285827d" name="Default" comment="refactor code">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/UtilQuery.java" />
+    <list default="true" id="f2725a3a-1626-4526-bea4-ffb46285827d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/README" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/controler/AddServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/AddServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/controler/ReadServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/ReadServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/controler/SearchServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/controler/SearchServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/AddQuery.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/AddQuery.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/DeleteQuery.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/DeleteQuery.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadQuery.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadQuery.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadRecord.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadRecord.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/SearchQuery.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/SearchQuery.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/UpdateQuery.java" afterPath="$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/UpdateQuery.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mixail/main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/newjspmenu.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/includes/newjspmenu.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/read.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/read.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Servlet_MVC/WEB-INF/classes/com/mixail/main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Servlet_MVC/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/Servlet_MVC/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/Servlet_MVC/index.jsp" afterPath="$PROJECT_DIR$/target/Servlet_MVC/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mixail/main.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,14 +43,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReadQuery.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mixail/dbHelpers/ReadQuery.java">
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding>
-                <marker date="1519992758488" expanded="true" signature="436:456" ph="Select *from... friends" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="65" lean-forward="false" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mixail/controler/AddServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/search.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/updateForm.jsp" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -182,36 +160,6 @@
             <path>
               <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet_MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet_MVC" type="b2602c69:ProjectViewProjectNode" />
@@ -466,7 +414,7 @@
       <workItem from="1519810786044" duration="13199000" />
       <workItem from="1519901582856" duration="9910000" />
       <workItem from="1519984070303" duration="5260000" />
-      <workItem from="1519992835686" duration="695000" />
+      <workItem from="1519992835686" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1519658272234</created>
@@ -503,11 +451,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519929144515</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor code">
+      <created>1519993538873</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519993538873</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52829000" />
+    <option name="totallyTimeSpent" value="53274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="161" y="0" width="1550" height="1040" extended-state="0" />
@@ -923,6 +878,14 @@
           <folding>
             <marker date="1519992758488" expanded="true" signature="436:456" ph="Select *from... friends" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="65" lean-forward="false" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
