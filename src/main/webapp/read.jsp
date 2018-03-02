@@ -28,6 +28,7 @@
 <a href="search.jsp"> Search Friends</a>
 <br>
 <a href="/read" >View All Friend</a>
+
     </div>
 
     <!--Footer-->

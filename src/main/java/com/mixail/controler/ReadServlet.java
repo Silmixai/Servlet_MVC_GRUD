@@ -15,7 +15,7 @@ public class ReadServlet extends HttpServlet {
         ReadQuery readQuery = new ReadQuery();
         readQuery.doRead();
         try {
-            String table = readQuery.getHTMLtable();
+            String table = readQuery.getReadHTMLtable();
             request.setAttribute("table", table);
             String url = "/read.jsp";
             request.getRequestDispatcher(url).forward(request,response);
@@ -23,8 +23,7 @@ public class ReadServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
+        
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -15,26 +15,19 @@ import java.sql.SQLException;
 public class SearchServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
-
         try {
 
             String friendName = request.getParameter("searchVal");
 
             SearchQuery sq = new SearchQuery();
             sq.doSearch(friendName);
-            String table = sq.getHTMLtable();
+            String table = sq.getSearchHTMLtable();
             request.setAttribute("table",table);
             request.getRequestDispatcher("/read.jsp").forward(request,response);
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
-
-
 
     }
 

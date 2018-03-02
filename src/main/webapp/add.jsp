@@ -9,10 +9,20 @@
 <html>
 <head>
     <title>Add JSP Page</title>
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
+<div class="wrap">
 
+<!--Header-->
+<%@ include file="includes/header.jsp" %>
+
+
+<!--Menu-->
+<%@ include file="includes/newjspmenu.jsp" %>
+<!--Main-->
+<div class="main">
 
 <h1>Add A New Friend</h1>
 <form name="addForm" action="add" method="get">
@@ -32,6 +42,12 @@
     <input type="submit" name="submit" value="Submit">
 
 </form>
+</div>
+
+<!--Footer-->
+
+<%@ include file="includes/footer.jsp" %>
+</div>
 
 </body>
 </html>

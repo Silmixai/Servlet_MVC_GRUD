@@ -8,45 +8,65 @@
 </head>
 <body>
 
-<%Friends friends = (Friends) request.getAttribute("friend");%>
-<h1>Update A Friend Record</h1>
+<body>
+<div class="wrap">
 
-<form name="updateForm" action="/updateFriend" method="get">
-
-<table class="add">
-    <tr>
-        <td class="right">Friend id: </td>
-        <td> <input type="text" name="id" readonly value="<%=friends.getFriendId()%>" > </td>
-
-    </tr>
-
-    <tr>
-        <td class="right">Friend name </td>
-        <td> <input type="text" name="name" value="<%=friends.getFriendName()%>"></td>
-
-    </tr>
-
-    <tr>
-        <td class="right">Email Address: </td>
-        <td>  <input type="text" name="email" value="<%=friends.getEmailAddr()%>"></td>
-
-    </tr>
+    <!--Header-->
+    <%@ include file="/includes/header.jsp" %>
 
 
-    <tr>
-        <td class="right">Age: </td>
-        <td>   <input type="text" name="age" value="<%=friends.getAge()%>"></td>
+    <!--Menu-->
+    <%@ include file="/includes/newjspmenu.jsp" %>
+    <!--Main-->
+    <div class="main">
 
-    </tr>
+        <%Friends friends = (Friends) request.getAttribute("friend");%>
+        <h1>Update A Friend Record</h1>
 
-    <tr>
-        <td class="right">Favotite color:</td>
-        <td>   <input type="text" name="color" value="<%=friends.getFavoriteColor()%>"></td>
+        <form name="updateForm" action="/updateFriend" method="get">
 
-    </tr>
-</table>
-    <input type="submit" name="submit" value="Update">
-    <input type="reset" name="reset" value="clear">
-</form>
+            <table class="add">
+                <tr>
+                    <td class="right">Friend id:</td>
+                    <td><input type="text" name="id" readonly value="<%=friends.getFriendId()%>"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="right">Friend name</td>
+                    <td><input type="text" name="name" value="<%=friends.getFriendName()%>"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="right">Email Address:</td>
+                    <td><input type="text" name="email" value="<%=friends.getEmailAddr()%>"></td>
+
+                </tr>
+
+
+                <tr>
+                    <td class="right">Age:</td>
+                    <td><input type="text" name="age" value="<%=friends.getAge()%>"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="right">Favotite color:</td>
+                    <td><input type="text" name="color" value="<%=friends.getFavoriteColor()%>"></td>
+
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="Update">
+
+        </form>
+
+    </div>
+
+
+    <!--Footer-->
+
+    <%@ include file="../includes/footer.jsp" %>
+</div>
 </body>
 </html>

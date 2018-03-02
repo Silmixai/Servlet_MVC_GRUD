@@ -5,6 +5,7 @@ import com.mixail.model.Friends;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -17,30 +18,8 @@ public class UpdateQuery {
 
     public UpdateQuery() {
 
-        Properties properties = new Properties();
-        FileInputStream fileInputStream;
-        try {
-            fileInputStream = new FileInputStream("C:\\Users\\Mike\\Documents\\Servlet_MVC\\src\\main\\resources\\dbConn.properties");
-            properties.load(fileInputStream);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        String login = properties.getProperty("user.name");
-        String password = properties.getProperty("user.password");
-        String url = properties.getProperty("server.name");
-        String driver = properties.getProperty("driver.name");
-
-
-        try {
-            Class.forName(properties.getProperty("driver.name"));
-            conn = DriverManager.getConnection(url + "?useSSL=false", login, password);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+        UtilQuery utilQuery = new UtilQuery();
+        this.conn = utilQuery.getConn();
     }
 
     public void doUpdate(Friends friend) throws SQLException {

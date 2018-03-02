@@ -32,9 +32,6 @@ public class AddServlet extends HttpServlet {
         String url="/read";
         request.getRequestDispatcher(url).forward(request,response);
 
-
-
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

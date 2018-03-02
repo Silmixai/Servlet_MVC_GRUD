@@ -14,13 +14,13 @@
     <!--Menu-->
     <%@ include file="includes/newjspmenu.jsp" %>
     <!--Main-->
-<div class="main">
-    <h1> My Friends Database</h1>
-    <a href="/read">View All Friend</a>
-    <br> <br>
-    <a href="search.jsp"> Search Friends</a>
+    <div class="main">
+        <h1> My Friends Database</h1>
+        <a href="/read">View All Friend</a>
+        <br> <br>
+        <a href="search.jsp"> Search Friends</a>
 
-</div>
+    </div>
 
 
     <!--Footer-->
